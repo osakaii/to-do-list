@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333333;
+}
+.contain{
+    background:#222222;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.quest{
+    text-align: center;
+    width: 100%;
+    background: #222222;
+    font-family: 'Oswald', sans-serif;
+    cursor: default;
+    margin-top: auto;
+}
+h1{
+    font-size: 80px;
+}
+.answers{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin-top: auto;
+}
+
+.button{
+    width: 40%;
+    height: 30px;
+    background: linear-gradient(45deg, gray, black);
+    border-radius: 20px;
+    border: black;
+    margin: 10px 0;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    cursor: default;
+    font-size: 30px;
+}
+.money{
+    margin-top: auto;
+    margin-bottom: 10%;
+}
+.again{
+    width: 40%;
+    height: 30px;
+    background: linear-gradient(45deg, gray, black);
+    border-radius: 20px;
+    border: black;
+    margin-bottom: auto;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
